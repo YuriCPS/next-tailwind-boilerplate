@@ -6,7 +6,7 @@ describe('<Button />', () => {
   it('should render the heading', () => {
     const { container } = render(<Button href="href" title="title" />)
 
-    expect(screen.getByRole('heading', { name: /Button/i })).toBeInTheDocument()
+    expect(screen.getByRole('button', { name: /title/i })).toBeInTheDocument()
 
     expect(container.firstChild).toMatchSnapshot()
   })

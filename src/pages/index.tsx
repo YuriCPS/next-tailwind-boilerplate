@@ -11,7 +11,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="flex flex-col items-center justify-center flex-1 w-full px-20 text-center">
+      <section className="flex flex-col items-center justify-center flex-1 w-full px-20 text-center">
         <h1 className="text-6xl font-bold">
           Welcome to{' '}
           <a className="text-blue-600" href="https://nextjs.org">
@@ -52,7 +52,7 @@ export default function Home() {
           />
         </div>
         <Button href="https://nextjs.org/docs" title="Documentation" />
-      </main>
+      </section>
 
       <Footer />
     </div>
