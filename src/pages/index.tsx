@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Block from 'components/Block'
+import Button from 'components/Button'
 import Footer from 'components/Footer'
 
 export default function Home() {
@@ -50,6 +51,7 @@ export default function Home() {
             description="Instantly deploy your Next.js site to a public URL with Vercel."
           />
         </div>
+        <Button href="https://nextjs.org/docs" title="Documentation" />
       </main>
 
       <Footer />
