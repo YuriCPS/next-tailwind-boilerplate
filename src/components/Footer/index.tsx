@@ -1,7 +1,7 @@
 import Image from 'next/image'
 
 const Footer = () => (
-  <footer className="flex h-24 w-full items-center justify-center border-t">
+  <footer className="flex items-center justify-center w-full h-24 border-t">
     <a
       className="flex items-center justify-center"
       href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
@@ -12,7 +12,7 @@ const Footer = () => (
       <Image
         src="/vercel.svg"
         alt="Vercel Logo"
-        className="ml-2 h-4"
+        className="h-4 ml-2"
         width={100}
         height={100}
       />
