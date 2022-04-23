@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Button /> should render the heading 1`] = `
+<a
+  href="href"
+>
+  <button
+    class="p-2 m-2 rounded-md bg-amber-400 hover:scale-110 hover:bg-amber-500"
+    type="button"
+  >
+    title
+  </button>
+</a>
+`;
