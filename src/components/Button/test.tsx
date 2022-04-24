@@ -4,9 +4,16 @@ import Button from '.'
 
 describe('<Button />', () => {
   it('should render the heading', () => {
-    const { container } = render(<Button href="href" title="title" />)
+    const { container } = render(
+      <Button
+        href="href"
+        text="Button"
+        color="blue"
+        size="medium"
+      />
+    )
 
-    expect(screen.getByRole('button', { name: /title/i })).toBeInTheDocument()
+    expect(screen.getByRole('button', { name: /Button/i })).toBeInTheDocument()
 
     expect(container.firstChild).toMatchSnapshot()
   })
