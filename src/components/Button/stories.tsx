@@ -10,5 +10,7 @@ export const Default: Story<ButtonProps> = (args) => <Button {...args} />
 
 Default.args = {
   href: '#',
-  title: 'title',
+  text: 'Button',
+  color: 'amber',
+  size: 'medium'
 }
