@@ -35,6 +35,10 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 
 ## Commands
 
+```bash
+yarn <command>
+```
+
 - `dev`: runs your application on `localhost:3000`
 - `build`: creates the production build version
 - `start`: starts a simple server with the build production code
