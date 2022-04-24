@@ -1,6 +1,6 @@
 This is a [Next.js](https://nextjs.org/) boilerplate using [TailwindCSS](https://tailwindcss.com/) and other cool stuff. Most of this is taught in [this course](https://reactavancado.com.br).
 
-![ci](https://github.com/React-Avancado/boilerplate/workflows/ci/badge.svg)
+![ci](https://github.com/YuriCPS/next-tailwind-boilerplate/workflows/ci/badge.svg)
 
 ## What is inside?
 
@@ -17,11 +17,15 @@ This project uses lot of stuff as:
 
 ## Getting Started
 
-First, run the development server:
+First, install all the dependencies:
 
 ```bash
-npm run dev
-# or
+yarn install
+```
+
+Them, run the development server:
+
+```bash
 yarn dev
 ```
 
