@@ -9,7 +9,8 @@
     "test": "jest --maxWorkers=50%",
     "test:watch": "jest --watch --maxWorkers=25%",
     "test:ci": "jest --runInBand",
-    "generate": "yarn plop --plopfile generators/plopfile.js",
+    "generate-inv": "yarn plop --plopfile generators/invariableComponent.js",
+    "generate-var": "yarn plop --plopfile generators/variableComponent.js",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },

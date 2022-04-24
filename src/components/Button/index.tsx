@@ -25,7 +25,7 @@ const style: Styles = {
     medium: 'text-md',
     large: 'text-xl',
   },
-  common: "hover:scale-110 m-2 py-2 px-4 rounded-md font-medium"
+  common: 'hover:scale-110 m-2 py-2 px-4 rounded-md font-medium'
 }
 
 const Button = ({ href, text, color, size }: ButtonProps) => (
