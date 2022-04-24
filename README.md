@@ -17,16 +17,16 @@ This project uses lot of stuff as:
 
 ## Getting Started
 
-First, install all the dependencies:
+First, install all dependencies:
 
 ```bash
-yarn install
+npm install
 ```
 
 Them, run the development server:
 
 ```bash
-yarn dev
+npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
@@ -34,6 +34,10 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
 ## Commands
+
+```bash
+npm run <command>
+```
 
 - `dev`: runs your application on `localhost:3000`
 - `build`: creates the production build version
