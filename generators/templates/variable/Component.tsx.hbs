@@ -1,0 +1,26 @@
+export type {{pascalCase name}}Props = {
+  {{prop}}: string
+}
+
+interface Styles {
+  bg: {[key: string]: string}
+  common: string,
+}
+
+const style: Styles = {
+  bg: {
+    style1: '',
+    style2: '',
+  },
+  common: ''
+}
+
+const {{pascalCase name}} = ({ {{prop}} }: {{pascalCase name}}Props) => (
+  <h1
+    className={`${style.bg[{{prop}}]} ${style.common}`}
+  >
+    {{pascalCase name}}
+  </h1>
+)
+
+export default {{pascalCase name}}

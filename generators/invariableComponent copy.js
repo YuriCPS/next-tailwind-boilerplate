@@ -1,6 +1,6 @@
 module.exports = (plop) => {
   plop.setGenerator('component', {
-    description: 'Create a component',
+    description: 'Create a invariable component',
     prompts: [
       {
         type: 'input',
@@ -12,17 +12,17 @@ module.exports = (plop) => {
       {
         type: 'add',
         path: '../src/components/{{pascalCase name}}/index.tsx',
-        templateFile: 'templates/Component.tsx.hbs'
+        templateFile: 'templates/invariable/Component.tsx.hbs'
       },
       {
         type: 'add',
         path: '../src/components/{{pascalCase name}}/stories.tsx',
-        templateFile: 'templates/stories.tsx.hbs'
+        templateFile: 'templates/invariable/stories.tsx.hbs'
       },
       {
         type: 'add',
         path: '../src/components/{{pascalCase name}}/test.tsx',
-        templateFile: 'templates/test.tsx.hbs'
+        templateFile: 'templates/invariable/test.tsx.hbs'
       }
     ]
   })

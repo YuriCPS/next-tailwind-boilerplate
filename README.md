@@ -45,7 +45,8 @@ yarn <command>
 - `lint`: runs the linter in all components and pages
 - `test`: runs jest to test all components and pages
 - `test:watch`: runs jest in watch mode
-- `generate ComponentName`: to generate a component structure
+- `generate-inv`: to generate a invariable component structure(without props)
+- `generate-var`: to generate a variable component structure(with props)
 - `storybook`: runs storybook on `localhost:6006`
 - `build-storybook`: create the build version of storybook
 
