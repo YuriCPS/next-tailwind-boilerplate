@@ -13,7 +13,8 @@ jobs:
         with:
           node-version: 14.x
 
-      - uses: actions/cache@v2
+      - name: Get cached dependencies
+        uses: actions/cache@v2
         id: yarn-cache
         with:
           path: |
@@ -23,11 +24,12 @@ jobs:
           key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
             ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
+
       - name: Install dependencies
         run: yarn install
 
       - name: Linting
         run: yarn lint
 
-      - name: Test
+      - name: Testing
         run: yarn test:ci
