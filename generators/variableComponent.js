@@ -10,7 +10,7 @@ module.exports = (plop) => {
       {
         type: 'input',
         name: 'prop',
-        message: 'What is your variable prop name?'
+        message: 'What is your prop name?'
       }
     ],
     actions: [
