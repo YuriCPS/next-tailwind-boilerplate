@@ -1,4 +1,4 @@
-import Image from 'next/image'
+import Image from 'next/image';
 
 const Footer = () => (
   <footer className="flex items-center justify-center w-full h-24 border-t">
@@ -8,7 +8,8 @@ const Footer = () => (
       target="_blank"
       rel="noopener noreferrer"
     >
-      Powered by{' '}
+      Powered by
+      {' '}
       <Image
         src="/vercel.svg"
         alt="Vercel Logo"
@@ -18,6 +19,6 @@ const Footer = () => (
       />
     </a>
   </footer>
-)
+);
 
-export default Footer
+export default Footer;

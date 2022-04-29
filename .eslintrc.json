@@ -17,7 +17,7 @@
       }
     }
   ],
-  "ignorePatterns": ["*.config.js"],
+  "ignorePatterns": ["*.config.js", ".jest/setup.ts"],
   "rules": {
     "tailwindcss/classnames-order": "off",
     "react/function-component-definition": "off",

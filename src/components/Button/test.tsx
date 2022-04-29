@@ -1,6 +1,6 @@
-import { render, screen } from '@testing-library/react'
+import { render, screen } from '@testing-library/react';
 
-import Button from '.'
+import Button from '.';
 
 describe('<Button />', () => {
   it('should render the heading', () => {
@@ -10,11 +10,11 @@ describe('<Button />', () => {
         text="Button"
         color="blue"
         size="medium"
-      />
-    )
+      />,
+    );
 
-    expect(screen.getByRole('button', { name: /Button/i })).toBeInTheDocument()
+    expect(screen.getByRole('button', { name: /Button/i })).toBeInTheDocument();
 
-    expect(container.firstChild).toMatchSnapshot()
-  })
-})
+    expect(container.firstChild).toMatchSnapshot();
+  });
+});
