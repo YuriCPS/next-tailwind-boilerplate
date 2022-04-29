@@ -1,9 +1,9 @@
 export type {{pascalCase name}}Props = {
   {{prop}}: string
-}
+};
 
 interface Styles {
-  bg: {[key: string]: string}
+  bg: { [key: string]: string }
   common: string,
 }
 
@@ -12,8 +12,8 @@ const style: Styles = {
     style1: '',
     style2: '',
   },
-  common: ''
-}
+  common: '',
+};
 
 const {{pascalCase name}} = ({ {{prop}} }: {{pascalCase name}}Props) => (
   <h1
@@ -21,6 +21,6 @@ const {{pascalCase name}} = ({ {{prop}} }: {{pascalCase name}}Props) => (
   >
     {{pascalCase name}}
   </h1>
-)
+);
 
-export default {{pascalCase name}}
+export default {{pascalCase name}};
