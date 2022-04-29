@@ -4,6 +4,7 @@
     "next/core-web-vitals",
     "airbnb",
     "airbnb-typescript",
+    "plugin:react/jsx-runtime",
     "plugin:storybook/recommended",
     "plugin:tailwindcss/recommended"
   ],
@@ -19,6 +20,18 @@
   "ignorePatterns": ["*.config.js"],
   "rules": {
     "tailwindcss/classnames-order": "off",
+    "react/function-component-definition": "off",
+    "react/jsx-props-no-spreading": "off",
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": [
+          "**/test.*",
+          "**/stories.*",
+          "**/.storybook/**/*.*"
+        ]
+      }
+    ],
     "import/order": [
       "error",
       {
