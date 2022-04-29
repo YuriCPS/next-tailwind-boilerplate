@@ -6,9 +6,9 @@ export default {
   component: Button
 } as Meta
 
-export const Default: Story<ButtonProps> = (args) => <Button {...args} />
+export const Amber: Story<ButtonProps> = (args) => <Button {...args} />
 
-Default.args = {
+Amber.args = {
   href: '#',
   text: 'Button',
   color: 'amber',
