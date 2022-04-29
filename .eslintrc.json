@@ -3,8 +3,19 @@
     "next",
     "next/core-web-vitals",
     "prettier",
+    "airbnb",
+    "airbnb-typescript",
     "plugin:storybook/recommended",
     "plugin:tailwindcss/recommended"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "overrides": [
+    {
+      "files": ["*.ts", "*.tsx"],
+      "parserOptions": {
+        "project": ["./tsconfig.json"]
+      }
+    }
   ],
   "ignorePatterns": ["*.config.js"],
   "rules": {
