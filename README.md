@@ -14,7 +14,7 @@ This project uses lot of stuff as:
 ![Testing-Library](https://img.shields.io/badge/-TestingLibrary-%23E33332?style=for-the-badge&logo=testing-library&logoColor=white)
 ![Storybook](https://img.shields.io/badge/-Storybook-FF4785?style=for-the-badge&logo=storybook&logoColor=white)
 ![ESLint](https://img.shields.io/badge/ESLint-4B3263?style=for-the-badge&logo=eslint&logoColor=white)
-![Plop JS](https://img.shields.io/badge/PLOP%20JS-3ECF8E?style=for-the-badge&logo=plop&logoColor=white))
+![Plop JS](https://img.shields.io/badge/PLOP%20JS-3ECF8E?style=for-the-badge&logo=plop&logoColor=white)
 
 ## Getting Started
 
